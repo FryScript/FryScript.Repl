@@ -6,13 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FryScript-Experimental" Version="0.0.0-CI-20190921-182115" />
     <PackageReference Include="Irony" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="FryScript">
-      <HintPath>..\..\..\..\..\..\source\FryScript\FryScript\FryScript\bin\Debug\netstandard2.0\FryScript.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
