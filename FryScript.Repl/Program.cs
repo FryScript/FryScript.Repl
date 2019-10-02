@@ -22,7 +22,7 @@ namespace FryScript.Repl
 
                     var result = runtime.Eval(code);
 
-                    Console.WriteLine(result);
+                    Console.WriteLine(result is string ? $"\"{result}\"" : result);
                 }
                 catch (Exception ex)
                 {
