@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FryScript-Experimental" Version="0.0.0-CI-20191002-203831" />
+    <PackageReference Include="FryScript-Experimental" Version="0.0.0-CI-20191003-180540" />
     <PackageReference Include="Irony" Version="1.1.0" />
   </ItemGroup>
 
