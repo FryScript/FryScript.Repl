@@ -7,7 +7,7 @@ namespace FryScript.Repl
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Fry Script Repl v1.0.0");
+            Console.WriteLine("Fry Script Repl v0.1.0");
 
             var runtime = new ScriptRuntime();
             runtime.Import(typeof(ConsoleWrapper));
@@ -29,7 +29,6 @@ namespace FryScript.Repl
                     var previous = Console.ForegroundColor;
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(ex.Message);
-                    Console.WriteLine(ex.StackTrace);
                     Console.ForegroundColor = previous;
                 }
             }
